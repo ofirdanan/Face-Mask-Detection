@@ -1,0 +1,15 @@
+name: test_env
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7.7=hcff3b4d_5
+  - torchvision=0.6.0=py37_cu101
+  - pytorch=1.5.0=py3.7_cuda10.1.243_cudnn7.6.3_0
+  - pillow=7.1.2=py37hb39fc2d_0
+  - numpy=1.18.1=py37h4f9e942_0
+  - numpy-base=1.18.1=py37hde5b4d6_1
+  - pandas=1.0.3=py37h0573a6f_0
+  - scikit-learn=0.22.1=py37hd81dba3_0
