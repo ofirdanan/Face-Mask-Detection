@@ -1,17 +1,11 @@
 import argparse
 import numpy as np
 import pandas as pd
-import torch.optim as optim
-import torch.nn.functional as F
 import torch
 import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
-import matplotlib.image as mpimg
-import random
-import os
 import torch.utils.data as data
-from torchvision import datasets
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 from torch.utils.data import Dataset
 from PIL import Image
